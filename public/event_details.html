@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.min.css" />
+
+    <title>Mannar Thirumalai Naicker College</title>
+
+
+</head>
+
+
+
+
+<body>
+
+    <div class="flex-1 bg-center">
+        <img class="rounded mx-auto" src="./images/logo.png" alt="" />
+
+    </div>
+
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+        <div class="container flex flex-wrap items-center justify-between mx-auto">
+            <a href="#" class="flex">
+                <span class="px-20 self-center text-lg font-semibold whitespace-nowrap dark:text-white">ICFCMS - 21</span>
+            </a>
+            <div class="flex items-center md:order-2">
+                <!-- <button type="button" class="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="dropdown">
+    <span class="sr-only">Open user menu</span>
+    <img class="w-8 h-8 rounded-full" src="/docs/images/people/profile-picture-3.jpg" alt="user photo">
+    </button> -->
+
+                <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown">
+                    <!-- <div class="px-4 py-3">
+                        <span class="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
+                        <span class="block text-sm font-medium text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
+                    </div> -->
+                    <ul class="py-1" aria-labelledby="dropdown">
+                        <li>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                        </li>
+                    </ul>
+                </div>
+                <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="mobile-menu-2" aria-expanded="false">
+    <span class="sr-only">Open main menu</span>
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+    <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+    </button>
+            </div>
+            <div class="justify-end hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu-2">
+                <ul class="flex flex-col mt-6 md:flex-row md:space-x-10 md:mt-0 md:text-sm md:font-medium ">
+
+                    <li>
+                        <a href="about.html" class="block py-2 pl-3 pr-4 text-white text-xl border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                    </li>
+                    <li>
+                        <a href="members.html" class="block py-2 pl-3 pr-4 text-white border-b text-xl border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Members</a>
+                    </li>
+                    <li>
+                        <a href="event_details.html" class="block py-2 pl-3 pr-4 text-white border-b text-xl border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Event Details</a>
+                    </li>
+                    <li>
+                        <a href="Speakers.html" class="block py-2 pl-3 pr-4 text-white border-b text-xl border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Speakers</a>
+                    </li>
+                    <li>
+                        <a href="registration.html" class="block py-2 pl-3 pr-4 text-white border-b  text-xl border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Registration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <h2 class="bg-red-700 p-8 text-center text-3xl text-white">INTERNATIONAL CONFERENCE ON FRONTIERS IN CHEMISTRY AND MATERIAL SCIENCE (ICFCMS - 21)</h2>
+        <h4 class="bg-red-700 p-2 text-xl text-center text-white">21 - 22 December 2021 Organized by </h4>
+        <h3 class="bg-red-700 p-2 text-2xl text-center text-white">DEPARTMENT OF CHEMISTRY MANNAR THIRUMALAI NAICKER COLLEGE, (AUTONOMOUS) MADURAI -04</h3>
+
+    </div>
+
+    <div class="py-10">
+        <div class="w-4xl p-4 text-center bg-white border rounded-lg shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-auto py-20">
+            <h3 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white underline">ORAL / POSTER PRESENTATION </h3>
+            <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+
+
+                <a href="#" class="block max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Abstracts for oral or poster presentations relating the conference are invited. Selected abstracts will be published in the conference proceedings with ISBN.</h5>
+
+                </a>
+
+
+            </div>
+
+            <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+
+
+                <a href="#" class="block max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Participants from other states can present virtually.</h5>
+
+                </a>
+
+            </div>
+            <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+
+                <a href="#" class="block max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Best oral and poster presentation will be awarded.
+                    </h5>
+
+                </a>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="w-4xl p-4 text-center bg-white border rounded-lg shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-auto py-20">
+            <h3 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white underline">GUIDELINES FOR ABSTRACT </h3>
+            <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+
+
+                <a href="#" class="block max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 py-10">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Abstract – 300 words (max)</h5>
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Keywords – 5-6 keywords</h5>
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Font & Size – Times new roman & 12</h5>
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Line spacing – 1.5</h5>
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Doc. Size – A4</h5>
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Margin – 1.5” on all sides</h5>
+                </a>
+
+
+            </div>
+            <h3 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white underline py-10">GUIDELINES FOR POSTER </h3>
+
+            <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+
+
+                <a href="#" class="block max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Size : 90 cm breadth 80 cm length</h5>
+
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> The abstracts for both oral / poster presentation should be sent to the E-mail on or before 18-12-2021.
+                    </h5>
+
+                </a>
+
+            </div>
+            <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+
+                <a href="#" class="block max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">E-mail: mtncchemistryfcms21@gmail.com
+                    </h5>
+
+                </a>
+
+            </div>
+
+
+
+        </div>
+        <div class="py-10">
+            <div class="w-4xl p-4 text-center bg-white border rounded-lg shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700 mx-auto py-20">
+                <h3 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white"> OTHER DETAILS</h3>
+                <div class="items-center justify-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+
+
+                    <a href="#" class="block max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white underline">Dates to Remember :</h5>
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Date of the event – 21/12/2021</h5>
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Abstract submission – 18/12/2021</h5>
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">Acceptance of abstract & intimation– 19/12/2021
+                        </h5>
+
+                    </a>
+                    <a href="#" class="block max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white underline">Note :</h5>
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">The presenting author must be highlighted in the abstract. No changes will be entertained.</h5>
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">“ Certificate / E-Certificate will be provided for participants.” On spot registration for participation is welcomed.</h5>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div>
+        <h2 class="bg-gray-300 p-2 text-center text-2xl text-red-600 font-bold underline">ADDRESS FOR COMMUNICATION</h2>
+
+        <h4 class="bg-gray-300 p-2 text-xl text-center font-bold text-black">DEPARTMENT OF CHEMISTRY, MANNAR THIRUMALAI NAICKER COLLEGE, (AUTONOMOUS) MADURAI -04,TAMIL NADU, INDIA </h4>
+        <h3 class="bg-red-700 p-2 text-xl text-center text-white"> For Contact: Dr. K. Muthupandi – 8056706987 Dr. A. J. Sunija – 6382277809 Mr. M. Surya - 8072604882</h3>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+</body>
+
+</html>

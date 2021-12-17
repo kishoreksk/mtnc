@@ -8,7 +8,7 @@
         "build": "tailwind build ./src/styles.css -o ./public/styles.css "
     },
     "keywords": [],
-    "author": "",
+    "author": "KISHORE K S",
     "license": "ISC",
     "dependencies": {
         "tailwindcss": "^2.2.19"
